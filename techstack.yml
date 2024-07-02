@@ -1,0 +1,707 @@
+repo_name: huhuhuHR/java-design-patterns
+report_id: 0f93fdf0d92dba0880ab62dff57200ea
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:39:16+00:00'
+requested_by: allcontributors[bot]
+provider: github
+branch: master
+detected_tools_count: 57
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/pom.xml
+  detection_source: cqrs/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:49:46.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/src/main/resources/hibernate.cfg.xml
+  detection_source: cqrs/src/main/resources/hibernate.cfg.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:49:46.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/docker-compose.yml
+  detection_source: caching/docker-compose.yml
+  last_updated_by: Victor
+  last_updated_on: 2021-10-20 17:44:01.000000000 Z
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/repository/pom.xml
+  detection_source: repository/pom.xml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
+- name: migra
+  description: A schema diff tool for PostgreSQL
+  website_url: https://migra.djrobstep.com/
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/execute-around/pom.xml
+  detection_source: execute-around/pom.xml
+  last_updated_by: Artur Mogozov
+  last_updated_on: 2017-12-31 07:29:48.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/docker-compose.yml
+  detection_source: caching/docker-compose.yml
+  last_updated_by: Victor
+  last_updated_on: 2021-10-20 17:44:01.000000000 Z
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/docker-compose.yml
+  detection_source: caching/docker-compose.yml
+  last_updated_by: Victor
+  last_updated_on: 2021-10-20 17:44:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/.github/workflows/maven-ci.yml
+  detection_source: ".github/workflows/maven-ci.yml"
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2023-01-06 10:34:08.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/abstract-document/pom.xml
+  detection_source: abstract-document/pom.xml
+  last_updated_by: qza
+  last_updated_on: 2016-05-31 18:12:27.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/src/main/resources/logback.xml
+  detection_source: cqrs/src/main/resources/logback.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:49:46.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/acyclic-visitor/pom.xml
+  detection_source: acyclic-visitor/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-11-20 08:16:53.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ilkka Seppala
+  last_updated_on: 2014-08-09 17:38:00.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/aggregator-microservices/aggregator-service/src/main/resources/application.properties
+  detection_source: aggregator-microservices/aggregator-service/src/main/resources/application.properties
+  last_updated_by: protopapa
+  last_updated_on: 2016-06-23 20:54:44.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/docker-compose.yml
+  detection_source: caching/docker-compose.yml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/docker-compose.yml
+  detection_source: caching/docker-compose.yml
+  last_updated_by: Victor
+  last_updated_on: 2021-10-20 17:44:01.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:54:24.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:54:24.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/event-sourcing/pom.xml
+  detection_source: event-sourcing/pom.xml
+  last_updated_by: Saiful Haque
+  last_updated_on: 2023-07-04 15:22:13.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/typeobjectpattern/pom.xml
+  detection_source: typeobjectpattern/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-12-04 09:05:24.000000000 Z
+- name: com.google.inject:guice
+  description: Guice is a lightweight dependency injection framework for Java 6 and
+    above
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/dependency-injection/pom.xml
+  detection_source: dependency-injection/pom.xml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/pom.xml
+  detection_source: cqrs/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:49:46.000000000 Z
+- name: commons-dbcp:commons-dbcp
+  description: Commons Database Connection Pooling
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/repository/pom.xml
+  detection_source: repository/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:56:44.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: javax.annotation:javax.annotation-api
+  description: Common Annotations for the JavaTM Platform API
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/repository/pom.xml
+  detection_source: repository/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:56:44.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/pom.xml
+  detection_source: cqrs/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-10-30 15:32:42.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/collecting-parameter/pom.xml
+  detection_source: collecting-parameter/pom.xml
+  last_updated_by: JoshuaSinglaANU
+  last_updated_on: 2022-11-20 12:37:33.000000000 Z
+- name: net.sourceforge.htmlunit:htmlunit
+  description: A headless browser intended for use in testing web-based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/page-object/pom.xml
+  detection_source: page-object/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:54:24.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/double-buffer/pom.xml
+  detection_source: double-buffer/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:51:43.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.24.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/pom.xml
+  detection_source: cqrs/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-10-30 15:32:42.000000000 Z
+- name: org.hamcrest:hamcrest-core
+  description: Core Hamcrest API - deprecated
+  version: '1.3'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/marker/pom.xml
+  detection_source: marker/pom.xml
+  last_updated_by: Hemant Bothra
+  last_updated_on: 2019-12-18 20:04:08.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/cqrs/pom.xml
+  detection_source: cqrs/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-10-30 15:32:42.000000000 Z
+- name: org.joda:joda-money
+  description: Money representation and formatting
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/domain-model/pom.xml
+  detection_source: domain-model/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:51:43.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/component/pom.xml
+  detection_source: component/pom.xml
+  last_updated_by: Qixiang Chen
+  last_updated_on: 2022-11-20 13:19:26.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/abstract-document/pom.xml
+  detection_source: abstract-document/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:49:46.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/front-controller/pom.xml
+  detection_source: front-controller/pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:51:43.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/acyclic-visitor/pom.xml
+  detection_source: acyclic-visitor/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-11-20 08:16:53.000000000 Z
+- name: org.mockito:mockito-inline
+  description: Mockito preconfigured inline mock maker
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/template-method/pom.xml
+  detection_source: template-method/pom.xml
+  last_updated_by: Dominik Gruntz
+  last_updated_on: 2022-10-10 16:19:04.000000000 Z
+- name: org.mockito:mockito-junit-jupiter
+  description: Mockito JUnit 5 support
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/log-aggregation/pom.xml
+  detection_source: log-aggregation/pom.xml
+  last_updated_by: YongHwan Kwon
+  last_updated_on: 2023-12-27 06:06:55.000000000 Z
+- name: org.mongodb:bson
+  description: The BSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/caching/pom.xml
+  detection_source: caching/pom.xml
+  last_updated_by: Robert Volkmann
+  last_updated_on: 2022-12-04 08:55:33.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/layers/pom.xml
+  detection_source: layers/pom.xml
+  last_updated_by: JabezBrew
+  last_updated_on: 2023-07-11 09:57:16.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Subhrodip Mohanta
+  last_updated_on: 2021-10-19 17:54:24.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/layers/pom.xml
+  detection_source: layers/pom.xml
+  last_updated_by: JabezBrew
+  last_updated_on: 2023-07-11 09:57:16.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/page-controller/pom.xml
+  detection_source: page-controller/pom.xml
+  last_updated_by: marikattt
+  last_updated_on: 2023-01-01 08:57:30.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/aggregator-microservices/aggregator-service/pom.xml
+  detection_source: aggregator-microservices/aggregator-service/pom.xml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
+- name: org.springframework.data:spring-data-jpa
+  description: Spring Data module for JPA repositories
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/repository/pom.xml
+  detection_source: repository/pom.xml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
+- name: org.springframework.retry:spring-retry
+  description: "#&lt;Ox::CData:0x00007efddc429b78&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/health-check/pom.xml
+  detection_source: health-check/pom.xml
+  last_updated_by: Doksanbir
+  last_updated_on: 2023-12-02 12:17:01.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/page-controller/pom.xml
+  detection_source: page-controller/pom.xml
+  last_updated_by: marikattt
+  last_updated_on: 2023-01-01 08:57:30.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/page-controller/pom.xml
+  detection_source: page-controller/pom.xml
+  last_updated_by: marikattt
+  last_updated_on: 2023-01-01 08:57:30.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/java-design-patterns/blob/master/aggregator-microservices/aggregator-service/pom.xml
+  detection_source: aggregator-microservices/aggregator-service/pom.xml
+  last_updated_by: Ilkka Seppälä
+  last_updated_on: 2022-09-14 17:52:24.000000000 Z
